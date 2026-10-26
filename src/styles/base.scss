@@ -23,3 +23,44 @@ main {
   grid-template-columns: 1fr;
   gap: 72px;
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-family: $goodspace-rounded-font-family;
+  font-size: clamp(1rem, 0.75rem + 1.2vw, 1.5rem);
+
+  &.btn-primary {
+    color: $dark-orbit;
+    background: $space-dust;
+    border: 2px solid $space-dust;
+    border-radius: 15px;
+    padding: 0 0.5rem;
+
+    &:hover {
+      background: none;
+      color: $white-noise;
+    }
+  }
+
+  &.btn-link {
+    color: $white-noise;
+    border-bottom: 2px solid $space-dust;
+
+    &:hover {
+      border-bottom: 2px solid $white-noise;
+    }
+  }
+
+  &.btn-link-accent {
+    color: $obyss-blue;
+    border-bottom-color: $obyss-blue;
+
+    &:hover {
+      border-bottom-color: $space-dust;
+    }
+  }
+}
