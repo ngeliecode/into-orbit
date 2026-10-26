@@ -137,6 +137,38 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-family: v.$goodspace-rounded-font-family;
+    font-size: 1rem;
+
+    &.btn-primary {
+      color: v.$dark-orbit;
+      background: v.$space-dust;
+      border: 2px solid v.$space-dust;
+      border-radius: 15px;
+      padding: 0 0.5rem;
+
+      &:hover {
+        background: none;
+        color: v.$white-noise;
+      }
+    }
+
+    &.btn-link {
+      color: v.$white-noise;
+      border-bottom: 2px solid v.$white-noise;
+
+      &:hover {
+        border-bottom: 2px solid v.$space-dust;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) {
