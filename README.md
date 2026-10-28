@@ -1,8 +1,21 @@
 # Into Orbit
 
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/) [![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/) ![Status](https://img.shields.io/badge/Status-Active-success)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/) [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
 
 [🚀 View Live Project](https://ngeliecode.github.io/into-orbit/)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Scripts
+
+- `npm run dev` - start the Vite development server
+- `npm run build` - create a production build
+- `npm run preview` - preview the production build locally
 
 ## About the design
 
@@ -42,13 +55,16 @@ For the swiper sections, this library may be useful: [Swiper.js](https://swiperj
 
 ## Development
 
-This repository was developed by **Negative Space**, a team of students at Medieinstitutet studying design and web development.
+This repository was developed by **Negative Space**, a team of students at Medieinstitutet studying design and web development:
+
+- Kimi - [Prxjec-t](https://github.com/Prxjec-t)
+- Angelie - [ngeliecode](https://github.com/ngeliecode)
+- Maria - [mariabhai](https://github.com/mariabhai)
+- Alex - [alexminhtruong](https://github.com/alexminhtruong)
 
 This is a continuation of the [original team project](https://github.com/medieinstitutet/fed25d-grafiska-verktyg-moodboard), where I'm improving and finishing features we didn't have time for before the deadline. The original repository remains unchanged.
 
 The site is deployed to GitHub Pages. The Vite `base` option in `vite.config.js` is set to `/into-orbit/` so assets load correctly on Pages. If the repository is renamed, `base` must be updated to match.
-
-For detailed technical information, dependencies, and development setup, see [src/README.md](src/README.md).
 
 ## Post-deadline improvements
 
@@ -56,4 +72,6 @@ Work done after the original submission, by [Angelie Ångman](https://github.com
 
 - [x] Updated the Vite `base` path for hosting on GitHub Pages under the new repository name
 - [x] Updated the live project link
+- [x] Added an HTML badge
+- [x] Merged the technical README into the root README
 - [ ] Make link underlines consistent and match their colour to the original design
